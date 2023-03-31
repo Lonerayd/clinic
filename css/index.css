@@ -6,16 +6,21 @@
     text-decoration: none;
 }
 
-.container-fluid {
+a {
+    text-decoration: none;
+}
+
+
+.page_wrapper {
     width: 100%;
     height: 100vh;
     background-image: url(https://source.unsplash.com/2000x1000/?dentures);
     background-postion: top;
-    backround-size: cover;
+    background-size: cover;
 
 }
 
-.container-fluid nav {
+.page_wrapper nav {
     width: 90%;
     margin: auto;
     height: 80px;
@@ -25,26 +30,26 @@
     text-decoration: none;
 }
 
-.container-fluid nav .logo {
+.page_wrapper nav .logo {
     font-size: 40px;
     text-transform: uppercase;
     color: #ef8653;
     font-weight: bold;
 }
 
-.container-fluid nav ul li {
+.page_wrapper nav ul li {
     display: inline-block;
     margin-left: 35px;
     position: relative;
 }
 
-.container-fluid nav ul li a {
+.page_wrapper nav ul li a {
     color:#fff;
     font-size: 18px;
     text-transform: capitalize;
 }
 
-.container-fluid nav ul li::after {
+.page_wrapper nav ul li::after {
     content: ' ';
     position: absolute;
     bottom: -3px;
@@ -55,8 +60,8 @@
     transition: 0.3s;
 }
 
-.container-fluid nav ul li:hover::after,
-.container-fluid nav ul li.active::after {
+.page_wrapper nav ul li:hover::after,
+.page_wrapper nav ul li.active::after {
     width: 100%;
 }
 
@@ -65,7 +70,7 @@
     top: 50%;
     left: 6%;
     transform: translateY(-50%);
-    width: 50%;
+    width: 60%;
 }
 
 .content h1{
@@ -74,6 +79,14 @@
     font-weight: bold;
     text-transform: capitalize;
     margin-bottom: 20px;
+}
+
+.content h2{
+    color:#fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 5px;
 }
 
 .content p {
