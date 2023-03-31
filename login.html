@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/login.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
@@ -13,19 +14,20 @@
 </head>
 <body>
     <div class="container">
-        <div class="main">
-        <h2>Please login</h2>
-        <form id="form_id" method="post" name="myform">
-        <label>User Name :</label>
-        <input type="text" name="username" id="username"/>
-        <label>Password :</label>
-        <input type="password" name="password" id="password"/>
-        <input type="button" value="Login" id="submit" onclick="validate()"/>
-        </form>
-        <span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : Formget<br/>Password : formget#123</b></span>
-        </div>
-        </div>
-
+        <div class="wrapper">
+            <div class="main">
+            <h2>Please login</h2>
+            <form id="form_id" method="post" name="myform">
+            <label>User Name :</label>
+            <input type="text" name="username" id="username"/>
+            <label>Password :</label>
+            <input type="password" name="password" id="password"/>
+            <input type="button" value="Login" id="submit" onclick="validate()"/>
+            </form>
+            <span>User Name : Formget<br/>Password : formget#123</b></span>
+            </div>
+            </div>
+    </div>
 <script>
     var attempt = 3; // Variable to count number of attempts.
 // Below function Executes on click of login button.
