@@ -20,6 +20,7 @@ a {
 
 }
 
+/* ----CSS NAVBAR START--- */
 .page_wrapper nav {
     width: 90%;
     margin: auto;
@@ -62,7 +63,7 @@ a {
 }
 
 .page_wrapper nav ul li:hover::after,
-.page_wrapper nav ul li.active::after {
+.page_wrapper nav ul li:active::after{
     width: 100%;
 }
 
@@ -80,6 +81,7 @@ a {
     background-color: transparent;
     color: #ef8653;
 }
+/* ---CSS NAVBAR END---- */
 
 .content {
     position: absolute;
