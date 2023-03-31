@@ -34,7 +34,7 @@ a {
 .page_wrapper nav .logo {
     font-size: 40px;
     text-transform: uppercase;
-    color: #ef8653;
+    color: #10564F;
     font-weight: bold;
 }
 
@@ -69,17 +69,17 @@ a {
 
 .login_btn {
     padding: 15px 25px;
-    background-color: #ef8653;
+    background-color: #10564F;
     color: #fff;
     border-radius: 30px;
     text-transform: capitalize;
-    border: 1px solid #ef8653;
+    border: 1px solid #10564F;
     transition: 0.4s;
 }
 
 .login_btn:hover{
     background-color: transparent;
-    color: #ef8653;
+    color: #10564F;
 }
 /* ---CSS NAVBAR END---- */
 
@@ -120,17 +120,17 @@ a {
 
 .content .btn {
     padding: 15px 25px;
-    background-color: #ef8653;
+    background-color: #10564F;
     color: #fff;
     border-radius: 30px;
     text-transform: capitalize;
-    border: 1px solid #ef8653;
+    border: 1px solid #10564F;
     transition: 0.4s;
 }
 
 .content .btn:hover{
     background-color: transparent;
-    color: #ef8653;
+    color: #10564F;
 }
 
 .social_links{
@@ -153,6 +153,6 @@ a {
 }
 
 .social_links a i:hover{
-    background-color: #ef8653;
+    background-color: #10564F;
 }
 
