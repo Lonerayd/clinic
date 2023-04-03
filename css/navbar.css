@@ -1,8 +1,9 @@
 /* ----CSS NAVBAR START--- */
 .header nav {
     background-color: #BAD3E4;
-    width: 90%;
+    width: 100%;
     margin: auto;
+    padding: 15px;
     height: 80px;
     display: flex;
     justify-content: space-between;
